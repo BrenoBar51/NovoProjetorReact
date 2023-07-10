@@ -1,14 +1,8 @@
-import LinkItem from './components/atoms/LinkItem'
-import Logo from './components/atoms/Logo'
-import Links from './components/molecules/Links'
+import SinglePage from "./pages/SinglePage"
 
 function App() {
   return (
-    <main>
-      <Logo />
-      <LinkItem text={'Teste'}/>
-      <Links />
-    </main>
+    <SinglePage />
   )
 }
 

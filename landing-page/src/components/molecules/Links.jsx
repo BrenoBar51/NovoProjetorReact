@@ -8,12 +8,12 @@ export default function Links(){
             url: `${pathname}/#rates`
         },
         {
-            texto: 'Reviews',
-            url: `${pathname}/#reviews`
-        },
-        {
             texto: 'Favorite projects',
             url: `${pathname}/#projects`
+        },
+        {
+            texto: 'Reviews',
+            url: `${pathname}/#reviews`
         },
         {
             texto: 'Contact',
@@ -21,7 +21,7 @@ export default function Links(){
         },
     ]
     return(
-        <div>
+        <div className="flex gap-8 max-w-fit">
             {
                 links.map((link, index) => {
                     return(
