@@ -5,19 +5,19 @@ export default function Links(){
     const links = [
         {
             texto: 'Our Rates',
-            url: `${pathname}/#rates`
+            url: `${pathname}#rates`
         },
         {
             texto: 'Favorite projects',
-            url: `${pathname}/#projects`
+            url: `${pathname}#projects`
         },
         {
             texto: 'Reviews',
-            url: `${pathname}/#reviews`
+            url: `${pathname}#reviews`
         },
         {
             texto: 'Contact',
-            url: `${pathname}/#contact`
+            url: `${pathname}#contact`
         },
     ]
     return(
