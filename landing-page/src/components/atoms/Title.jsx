@@ -5,7 +5,8 @@ export default function Title(props){
                 props.type === 'primary' &&
                 <h1
                     className={`
-                
+                    text-[#030303]
+                    text-6xl
                 `}
         >
                     {props.children}
@@ -15,7 +16,9 @@ export default function Title(props){
                 props.type === 'secundary' &&
                 <h2
                     className={`
-                
+                    text-[#030303]
+                    text-5xl
+                    font-normal
                 `}
         >
                     {props.children}

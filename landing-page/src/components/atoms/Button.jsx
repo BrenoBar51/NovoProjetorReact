@@ -8,6 +8,7 @@ export default function Button(props){
                 ${props.type === 'default' && 'px-8 py-5 rounded border border-grey-400 text-black'}
                 uppercase
                 text-base
+                max-w-fit
             `}
         >
             {props.title}
